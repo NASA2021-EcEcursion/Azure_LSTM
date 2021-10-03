@@ -8,7 +8,6 @@ Keras, Tensorflow, NumPy, Pandas, PlotLy
 The following should be run in the folder od code to ensure successful build:
 (Note, this build is for MacOS/Unix Based Systems:
 <pre><code>python3 -m venv AzureLSTM-env
-'''
 source tutorial-env/bin/activate
 sudo pip install tensorflow
 sudo pip install numpy
@@ -19,4 +18,4 @@ python Sunshine_LSTM.py
 
 ## How To Run
 Should be able to run directly after ensuring all packages were downloaded in virtual-env of selection
-Creates .h5 files after training with given files, then moved to [AzureServer](https://github.com/NASA2021-EcEcursion/POWER_Dips-AzureServer) for further use in the react-native app.
+Creates .h5 files after training with given files manually downloaded from [NASA POWER Project](https://power.larc.nasa.gov/), then moved to [AzureServer](https://github.com/NASA2021-EcEcursion/POWER_Dips-AzureServer) for further use in the react-native app.
