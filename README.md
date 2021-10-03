@@ -4,9 +4,11 @@ Code for training in Azure Machine Learning Studio.
 Trained an LSTM Model with TensorFlow and Keras to predict future trends of Photosynthetically Active Radiation, written for 2021 NASA Space Apps Challenge: You Are My Sunshine.
 ## Packages Used
 Keras, Tensorflow, NumPy, Pandas, PlotLy
+Written with Python 3.6 but may be ok to run with higher versions.
 
-The following should be run in the folder od code to ensure successful build:
-(Note, this build is for MacOS/Unix Based Systems:
+The following should be run in the folder of code to ensure successful build and run:
+
+(Please note that this build is for MacOS/Unix Based Systems)
 <pre><code>python3 -m venv AzureLSTM-env
 source tutorial-env/bin/activate
 sudo pip install tensorflow
